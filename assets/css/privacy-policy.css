@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/************** Ermin Website Privacy Policy Section ****************/
+
+.ermin-section {
+  background-color: #121416;
+  color: #FFFFFE;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 10%;
+}
+
+.ermin-container {
+  width: 100%;
+    letter-spacing: 0.5px;
+}
+
+.ermin-container h1 {
+  font-size: 32px;
+  padding: 24px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.ermin-container h2 {
+  font-size: 24px;
+  padding: 24px 0;
+  color: #FFFFFF;
+}
+
+.ermin-container ul {
+  padding: 0 0 0 24px;
+  opacity: 0.8;
+}
+
+.ermin-container ul li {
+  list-style: square;
+  padding: 8px 0;
+}
+
+.ermin-container ul li ul li {
+    list-style: inside;
+}
+
+.ermin-container p {
+  opacity: 0.8;
+}
+
+/************** Contact Section ****************/
+
+.contact-section {
+  background-color: #121416;
+  color: #FFFFFE;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 10%;
+}
+
+.contact-container {
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+
+.contact-container h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  padding: 24px 0;
+  color: #FFFFFF;
+}
+
+.contact-container p {
+  padding: 12px 0;
+  opacity: 0.8;
+}
+
+.contact-container .contact-p {
+    padding: 0;
+}
+
+.contact-container p span {
+  font-style: italic;
+  font-weight: 600;
+  opacity: 1;
+}

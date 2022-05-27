@@ -26,6 +26,11 @@ app.get("/Ermin-Ripple", (req, res) => {
   res.sendFile(__dirname + "/assets/html/ermin-ripple.html");
 });
 
+app.get("/Bolt", (req, res) => {
+  res.sendFile(__dirname + "/assets/html/404-not-found.html");
+});
+
+
 app.get("/About-Us", (req, res) => {
   res.sendFile(__dirname + "/assets/html/about-us.html");
 });
