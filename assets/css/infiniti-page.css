@@ -111,8 +111,12 @@ body {
 
 .fiS-1 {
   position: absolute;
-  top: 175px;
-  left: 168px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  left: 100px;
   height: 295px;
   width: 570px;
 }
