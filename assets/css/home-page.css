@@ -346,20 +346,20 @@ ul, li {
 }
 
 .section.one {
-  background-image: url(../images/home-page/1.png);
+  background-image: url(../images/home-page/ermin_miles.png);
 }
 
 .section.two {
-  background-image: url(../images/home-page/2.png);
+  background-image: url(../images/home-page/ermin_infi.png);
 }
 
 .section.three {
-  background-image: url(../images/home-page/3.png);
+  background-image: url(../images/home-page/ermin_bolt.png);
 }
 
 .section__content {
   position: absolute;
-  top: 20%;
+  top: 12%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;

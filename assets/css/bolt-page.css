@@ -115,7 +115,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  top: 100px;
+  top: 150px;
   left: 100px;
   height: 295px;
   width: 570px;
@@ -173,7 +173,7 @@ body {
   }
 
   .fiS-1 {
-    top: 0;
+    top: -50px;
     left: 0;
     padding: 5% 5% 0 5%;
   }
@@ -203,6 +203,7 @@ body {
   .fiS-1 {
     height: 50%;
     padding: 5% 10%;
+    top: 0;
     flex-flow: column nowrap;
   }
 
@@ -376,6 +377,18 @@ body {
   .seS2-head {
     padding: 16px 0;
   }
+}
+
+/************ Render **************/
+
+.render {
+  max-height: 60vw;
+  height: 60vw;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/render-bolt.svg);
 }
 
 /************** Transition Section ****************/
