@@ -359,17 +359,18 @@ ul, li {
 
 .section__content {
   position: absolute;
-  top: 12%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
   text-transform: capitalize;
   color: #FFFFFF;
+  font-family: 'Goldman', cursive;
 }
 
 .section__content__title {
-  font-size: 6rem;
+  font-size: 7rem;
   letter-spacing: 0.2rem;
   font-weight: 900;
   margin-bottom: 0.5rem;
@@ -402,10 +403,12 @@ ul, li {
 }
 
 .section__action__btn {
+  filter: opacity(90%);
   font-size: 1.5rem;
   font-weight: 600;
+  letter-spacing: 0.1rem;
   padding: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   flex-basis: 80%;
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -415,8 +418,50 @@ ul, li {
   transition: all 0.2s 0s ease-out;
 }
 
-.action__btn__primary {
-  background-color: rgba(23, 26, 42, 0.8);
+.action__btn__primary__type1 {
+  background-color: #AB3A3B;
+  color: #FFFFFF;
+}
+
+.action__btn__primary__type1:hover {
+  background-color: #FFFFFF;
+  color: #AB3A3B;
+}
+
+.action__btn__secondary {
+  background-color: #0E0F11;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.action__btn__secondary:hover {
+	background-color: #FFFFFF;
+  color: #0E0F11;
+}
+
+.action__btn__primary__type2 {
+  background-color: #3E4880;
+  color: #FFFFFF;
+}
+
+.action__btn__primary__type2:hover {
+  background-color: #FFFFFF;
+  color: #3E4880;
+}
+
+.action__btn__primary__type3 {
+  background-color: #36939F;
+  color: #FFFFFF;
+}
+
+.action__btn__primary__type3:hover {
+  background-color: #FFFFFF;
+  color: #36939F;
+}
+
+
+/* .action__btn__primary {
+  background-color: rgba(23, 26, 42, 0.8);AB3A3B
   color: #FFFFFF;
 }
 
@@ -433,12 +478,13 @@ ul, li {
 .action__btn__secondary:hover {
 	background-color: rgba(23, 26, 42, 0.8);
   color: #FFFFFF;
-}
+} */
 
 /* sm=600 */
 /* md=900 */
 /* lg=1200 */
 /* xl=1600 */
+
 @media screen and (min-width: 600px) {
   .section__action__btn {
     max-width: 30rem;

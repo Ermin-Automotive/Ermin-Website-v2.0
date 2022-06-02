@@ -1,7 +1,7 @@
 let index = 0;
 
 window.onload = setInterval(function() {
-  if (index >= 3040) {
+  if (index >= 4560) {
     index = 0;
   }
   $(".thS-body2").scrollLeft(index);
