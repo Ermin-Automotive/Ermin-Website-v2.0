@@ -376,6 +376,7 @@ ul, li {
 }
 
 .section__content__subtitle {
+  letter-spacing: 0.25rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
