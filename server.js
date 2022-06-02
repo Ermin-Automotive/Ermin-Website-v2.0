@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 app.get("/Miles", (req, res) => {
   res.sendFile(__dirname + "/assets/html/miles-page.html");
 });
-
+ 
 app.get("/Infini-T", (req, res) => {
   res.sendFile(__dirname + "/assets/html/infiniti-page.html");
 });
