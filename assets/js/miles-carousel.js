@@ -1,3 +1,15 @@
+let index = 0;
+
+window.onload = setInterval(function() {
+  if (index >= 2280) {
+    index = 0;
+  }
+  $(".thS-body2").scrollLeft(index);
+  index += 380;
+}, 2000);
+
+// Pop Up Part
+
 $(".popUp").click(()=> {
    popUp();
 });
