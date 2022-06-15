@@ -153,6 +153,14 @@ body {
   background-color: #0E0F11;
 }
 
+.third-section hr {
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+  border-top: 4px dashed rgba(255, 255, 255, 0.1);
+  border-bottom: none;
+}
+
 .thS-head {
   width: 100%;
   padding: 100px 25% 0 25%;
@@ -392,7 +400,7 @@ body {
   }
 
   .fourth-section hr {
-    top: 1%;
+    top: -2%;
   }
 
   .f-div1 {
