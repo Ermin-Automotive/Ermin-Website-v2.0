@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 app.get("/Miles", (req, res) => {
   res.sendFile(__dirname + "/assets/html/miles-page.html");
 });
- 
+
 app.get("/Infini-T", (req, res) => {
   res.sendFile(__dirname + "/assets/html/infiniti-page.html");
 });
@@ -39,7 +39,7 @@ app.get("/Contact-Us", (req, res) => {
 });
 
 app.get("/Blogs", (req, res) => {
-  res.sendFile(__dirname + "/assets/html/404-not-found.html");
+  res.sendFile(__dirname + "/assets/html/blogs-page.html");
 });
 
 app.get("/Careers", (req, res) => {
